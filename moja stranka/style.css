@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Hanken Grotesk", serif;
+    text-align: center;
+    padding: auto;
+    background: linear-gradient(to right, rgb(23, 57, 43), rgb(7, 93, 55),  rgb(7, 93, 55), rgb(30, 46, 41), rgb(30, 46, 41));
+    color: white;
+    
+
+}
+
+main{
+
+}
+
+
+@media only screen and (min-width:320px)  {
+    body{
+        font-size: small;
+
+    }
+
+    ul {
+        list-style: none;
+        padding: 10px;
+        background: linear-gradient(to right, rgb(30, 46, 41), rgb(7, 93, 55));
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .citat{
+
+    }
+
+    .ktosom{
+    background-color: rgb(23, 57, 43);
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+    }
+
+    .kontakt{
+        background-color: rgb(23, 57, 43);
+        margin: 30px;
+        border-radius: 10px;
+    
+    }
+
+    .illustrator{
+
+    }
+
+    .photshop{
+
+    }
+
+    .html{
+
+    }
+
+    .figma{
+
+    }
+
+    footer{
+
+    }
+}
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
