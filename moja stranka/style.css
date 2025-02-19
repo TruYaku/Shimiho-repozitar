@@ -5,15 +5,21 @@ body{
     font-family: "Hanken Grotesk", serif;
     text-align: center;
     padding: auto;
-    background: linear-gradient(to right, rgb(23, 57, 43), rgb(7, 93, 55),  rgb(7, 93, 55), rgb(30, 46, 41), rgb(30, 46, 41));
+    background: linear-gradient(to bottom right, rgb(23, 57, 43), rgb(7, 93, 55),  rgb(7, 93, 55), rgb(30, 46, 41), rgb(30, 46, 41));
     color: white;
     
 
 }
 
 main{
+ display: grid;
+ grid-template-columns: [first] 80px [line2] 80px [line3] 80px [line4] 80px  ;
+ grid-template-rows: [row1-start] 100px [row2] 120px ;
+ justify-content: center
+
 
 }
+
 
 
 @media only screen and (min-width:320px)  {
@@ -32,45 +38,143 @@ main{
         color: white;
         border-radius: 10px;
     }
-
-    .citat{
-
+    img{
+        height: 100px;
+        width: 100px;
+        justify-self: end;
+    }
+    .top{
+        display: grid;
+        grid-template-rows: [row1-start] 70px;
+        grid-template-columns: [first] 160px [line2] 160px;
+        justify-content: end
+        
+    }
+    .\=quo {
+       font-style: initial;
+       margin-right: 10px;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: left;
+        font-size: x-small;
+        justify-self: start;
     }
 
     .ktosom{
-    background-color: rgb(23, 57, 43);
+    background-color: rgb(23, 57, 43, 0.5) ;
     margin: 30px;
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
+    font-size: xx-small;
 
 
     }
 
     .kontakt{
-        background-color: rgb(23, 57, 43);
+        background-color: rgb(23, 57, 43, 0.5);
         margin: 30px;
         border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: xx-small;
     
     }
 
     .illustrator{
+        background: linear-gradient(
+            to bottom right,
+            rgb(30, 46, 41) 7%,
+            rgb(23, 57, 43) 34% ,
+            rgb(7, 93, 55) 57%,
+            rgb(19, 68, 47) 85%,
+            rgb(30, 46, 41) 100%
+          );
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: left;
+        justify-self: stretch;
+        align-self: stretch;
+        grid-column: 1 / 3;
+        grid-row: 1 ;
+        font-size: xx-small;
+        height: 70px;
+        
+        
+        
 
     }
 
     .photshop{
-
+        background: linear-gradient(
+            to bottom right,
+            rgb(30, 46, 41) 7%,
+            rgb(23, 57, 43) 34% ,
+            rgb(7, 93, 55) 57%,
+            rgb(19, 68, 47) 85%,
+            rgb(30, 46, 41) 100%
+          );
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: left;
+        text-align: ;
+        justify-self: start;
+        grid-column: 3 / 5;
+        grid-row: 1 ;
+        font-size: xx-small;
+        height: 70px;
     }
 
     .html{
+        background: linear-gradient(
+            to bottom right,
+            rgb(30, 46, 41) 7%,
+            rgb(23, 57, 43) 34% ,
+            rgb(7, 93, 55) 57%,
+            rgb(19, 68, 47) 85%,
+            rgb(30, 46, 41) 100%
+          );
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: left;
+        justify-self: start;
+        grid-column: 3 / 5;
+        grid-row: 2 ;
+        font-size: xx-small;
+        height: 70px;
 
     }
 
     .figma{
-
+        background: linear-gradient(
+            to bottom right,
+            rgb(30, 46, 41) 7%,
+            rgb(23, 57, 43) 34% ,
+            rgb(7, 93, 55) 57%,
+            rgb(19, 68, 47) 85%,
+            rgb(30, 46, 41) 100%
+          );
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: left;
+        justify-self: start;
+        grid-column: 1 / 3;
+        grid-row: 2 ;
+        font-size: xx-small;
+        height: 70px;
+        
     }
 
     footer{
-
+        border-radius: 8px;
+        border: 1px solid rgb(7, 93, 55);
+        background-color: rgb(19, 68, 47);
+        font-size: x-small;
+        
     }
 }
 
