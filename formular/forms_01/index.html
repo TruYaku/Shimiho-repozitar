@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<h2>Registrácia</h2>
+<form>
+  <label for="fname">Meno:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Priezvisko:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+  <label for="mail">Email:</label><br>
+  <input type="text" id="mail" name="lname"><br><br>
+  
+    <label for="password">Heslo:</label><br>
+  <input type="text" id="password" name="lname"><br><br>
+
+      <label for="conpass">Ptvrdnie Hesla:</label><br>
+  <input type="text" id="conpass" name="lname"><br><br>
+
+  <input type="radio" id="man" name="man" value="Man">
+  <label for="man"> Muž</label>
+  <input type="radio" id="women" name="women" value="Women">
+  <label for="women"> Žena</label><br><br><br>
+
+  <input type="checkbox" id="confirm" name="confirm" value="Confrim">
+  <label for="confirm"> Suhlasím s podmienkami</label><br><br>
+  <label for="country">Krajina:</label><br>
+  <select id="country" name="country" required>
+      <option value="">Vyberte krajinu...</option>
+      <option value="slovakia">Slovensko</option>
+      <option value="czech">Česká republika</option>
+      <option value="hungary">Maďarsko</option>
+      <option value="austria">Rakúsko</option>
+      <option value="poland">Poľsko</option>
+  </select><br><br>
+
+</form>
+
+<button type="submit">Odoslať</button>
+</div>
+</body>
+</html>

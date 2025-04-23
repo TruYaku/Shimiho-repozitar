@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes pohyb {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+    
+    }
+.stvorec{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation: pohyb 1ms linear infinite;
+
+}
+
+
+
+
